@@ -7,14 +7,14 @@ export default function Navbar() {
   <div className="container-fluid w-full flex flex-wrap items-center justify-between">
     <div className="container-fluid">
     <Link className="flex items-center text-gray-900 hover:text-gray-900 focus:text-gray-900 mt-2 lg:mt-0 mr-1" href="/">
-        <Image src="/logo2.png" alt="" width='64' height='64' loading="lazy" />
+        <Image src="/logo2.png" alt="logo" width='64' height='64' loading="lazy" />
         <span className="text-xl font-bold pl-3">How They See Us</span>
     </Link>
     </div>
 
     <div>
-        <Link href="#" className="text-lg pl-8 font-bold pl-3">About</Link>
-        <Link href="#" className="text-lg pl-8 font-bold pl-3">Contact</Link>
+        <Link href="#" className="text-lg pl-8 font-bold">About</Link>
+        <Link href="#" className="text-lg pl-8 font-bold">Contact</Link>
     </div>
   </div>
 </nav>

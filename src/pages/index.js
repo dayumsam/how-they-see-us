@@ -20,7 +20,7 @@ export default function index() {
     <div className='relative w-full'>
     <Tooltip anchorId="my-anchor-element" content="Calgary" place="top" />
       <div id="my-anchor-element" className="beacon absolute w-4 h-4 bg-dark rounded-full origin-center top-[22%] left-[13%] z-[10] hover:cursor-pointer" onClick={download}/>
-      <Image className="w-full py-10" src={map}/>
+      <Image className="w-full py-10" alt='map-image' src={map} priority/>
     </div>
     </>
   )
