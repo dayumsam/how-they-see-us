@@ -1,5 +1,5 @@
 import '@/styles/globals.css'
-import 'react-tooltip/dist/react-tooltip.css'
+import 'tippy.js/dist/tippy.css';
 
 export default function App({ Component, pageProps }) {
   return (
