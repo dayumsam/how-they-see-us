@@ -1,3 +1,5 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;900&family=Nunito+Sans:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,15 +7,10 @@
 @layer base {
   body {
     @apply bg-background;
-    @apply py-5;
-    @apply px-11;
     @apply min-h-screen;
   }
 }
 
-/* body {
-  padding: 0;
-  margin: 0;
-
-  background-color: #fdfeee;
-} */
+#__next{
+  height: 100%;
+}

@@ -9,13 +9,18 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      'background': '#fdfded',
-      'primary': '#d6efc8',
-      'dark': '#3e883c'
+    fontFamily: {
+      'heading': ['Montserrat', 'sans-serif'],
+      'body': ['Nunito Sans', 'sans-serif']
+    },
+    extend: {
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        'background': '#fdfded',
+        'primary': '#d6efc8',
+        'dark': '#3e883c'
+      },
     },
   },
   plugins: [],
